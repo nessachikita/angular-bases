@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { HeroesCompont } from './heroes.module';
+import { HeroesModule } from './heroes.module';
 
 @Component({
   selector: 'app-heroes',
-  templateUrl: `
-  `
+  template: ''
 })
 
 export class HeroesComponent  {
